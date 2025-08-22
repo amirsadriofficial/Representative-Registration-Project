@@ -1,5 +1,4 @@
-// import PhoneNumberCard from "./components/phone-number-card";
-import OtpCard from "./components/otp-card";
+import NameCard from "./components/name-card";
 
 function App() {
   return (
@@ -11,7 +10,8 @@ function App() {
       <div className="absolute top-10 left-0 flex justify-center p-6 w-full">
         <div className="bg-white rounded-2xl w-full shadow-[0px_3px_6px_0px_rgba(28,72,112,0.16)]">
           {/* <PhoneNumberCard /> */}
-          <OtpCard />
+          {/* <OtpCard /> */}
+          <NameCard />
         </div>
       </div>
     </section>
